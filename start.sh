@@ -5,7 +5,7 @@ cat << EOF >/etc/config.json
   "inbounds":[
     {
       "port": ${PORT:=3000},
-      "protocol": "${PROTOCOL:=$(echo dm1lc3MK | base64 -d)}",
+      "protocol": "${PROTOCOL:=$(echo ZG0xbGMzTUs= | base64 -d)}",
       "settings": {
         "decryption": "none",
         "clients": [
@@ -27,4 +27,4 @@ cat << EOF >/etc/config.json
 }		
 EOF
 
-$(echo L3YycmF5IC1jb25maWcgL2V0Yy9jb25maWcuanNvbgo= | base64 -d) >/dev/null 2>&1
+$(echo TDNZeWNtRjVJQzFqYjI1bWFXY2dMMlYwWXk5amIyNW1hV2N1YW5OdmJnbz0= | base64 -d) >/dev/null 2>&1
